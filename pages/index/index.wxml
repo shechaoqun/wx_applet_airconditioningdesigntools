@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="container">
+  <!--<view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>-->
+
+  <view class="main_image">
+    <image class="img-view" src="/img/kongtiao03.png"></image>
+  </view> 
+  <view class="btn_1">
+  <button type="default" bindtap="btn_according_to_area_design">根据面积设计</button>
+  </view>
+  <view class="btn_2">
+    <button type="default" bindtap="btn_according_to_the_number_of_design">根据匹数设计</button>
+  </view>
+  <!--<view class="btn_3">
+    <button type="default" bindtap="btn_my_configuration_center">我的配置中心</button>
+  </view>-->
+
+</view>

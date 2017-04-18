@@ -1,0 +1,104 @@
+
+.btn_1 {
+    margin-top:40px;
+    margin-bottom: 10px;
+    /*border: 1px;*/
+    /*border-style: solid;*/
+}
+
+.btn_2 {
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.btn_3 {
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.flex-wrp {
+    height: 100rpx;
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 10rpx;
+    /*border: 1rpx;*/
+}
+
+/*.flex-item {
+    width: 200 rpx;
+    height: 300 rpx;
+    font-size: 26 rpx;
+
+}*/
+
+.flex-item-V{
+    margin: 0 auto;
+    width: 80rpx;
+    height: 100rpx;
+    /*border-radius: 2px;*/
+    /*border: 1rpx solid #e5e5e5;*/
+    /*border-style: solid;*/
+
+}
+.flex-item-V-e {
+    margin: 0 auto;
+    width: 110rpx;
+    height: 100rpx;
+}
+.flex-item-V-a{
+    margin: 0 auto;
+    width: 130rpx;
+    height: 100rpx;
+}
+.flex-item-V-b{
+    margin: 0 auto;
+    width: 130rpx;
+}
+.flex-item-V-c{
+    margin: 0 auto;
+    width: 180rpx;
+}
+.flex-item-V-d{
+    margin: 0 auto;
+    width: 100rpx;
+}
+.flex-item-V-btn{
+    margin: 0 auto;
+    width: 200px;
+}
+
+.icon{
+    display: inline-block;
+    border: 4px solid transparent;
+    border-top: 4px solid #9b9b9b;
+    margin-left: 5px;
+}
+
+.flex-item-V.active .icon{
+    border-bottom: 4px solid #61beff;
+    border-top:0;
+}
+.picker{
+    margin-top:3px;
+}
+
+.airNum{
+    margin: 0 auto;
+    padding-right: 2px;
+}
+
+.black-line {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    border-color: black;
+    border:1rpx solid;
+}
+
+.flex-view-item {
+    margin-top: 5rpx;
+    margin-left:10rpx;
+    font-size: medium;
+}
+
+

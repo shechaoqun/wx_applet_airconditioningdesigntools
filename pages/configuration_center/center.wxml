@@ -1,0 +1,117 @@
+<!--index.wxml-->
+<view class="container">
+
+    <view class="flex-wrp" style="flex-direction:row;">
+        <text class="flex-item flex-item-V-a">
+            房型
+        </text>
+        <text class=" flex-item flex-item-V-b">
+            机型
+        </text>
+        <text class=" flex-item flex-item-V-c">
+            面积/匹数
+        </text>
+        <text class=" flex-item flex-item-V-d">
+            冷量
+        </text>
+        <text class=" flex-item flex-item-V">
+            数量
+        </text>
+        <text class=" flex-item flex-item-V">
+            价格
+        </text>
+    </view>
+    <view wx:for="{{data_all_array}}" wx:for-index="idx" wx:for-item="item" bindtap="btn_refsh_view" class="flex-wrp"
+          style="flex-direction:row;">
+        <view class="airNum">{{index}} {{idx + 1}}</view>
+        <view class=" flex-item flex-item-V-a">
+            {{index}} {{item.room_type}}
+        </view>
+        <view class=" flex-item flex-item-V-b">
+            {{index}} {{item.machin_type}}
+        </view>
+
+        <view class=" flex-item flex-item-V-c">
+            {{index}} {{item.horses_number}}
+        </view>
+        <view class=" flex-item flex-item-V-d">
+            {{index}} {{item.quantity_cold}}
+        </view>
+        <view class=" flex-item flex-item-V">
+            {{index}} {{item.default_num}}
+        </view>
+        <view class=" flex-item flex-item-V">
+            {{index}} {{item.price}}
+        </view>
+    </view>
+
+    <view class="black-line"></view>
+
+    <view class="flex-wrp" style="flex-direction:row;">
+        <text class="flex-item flex-item-V-a">
+            外机
+        </text>
+        <text class=" flex-item flex-item-V-b">
+            匹数
+        </text>
+        <text class=" flex-item flex-item-V-e">
+            冷量
+        </text>
+        <text class=" flex-item flex-item-V-d">
+            数量
+        </text>
+        <text class=" flex-item flex-item-V">
+            价格
+        </text>
+    </view>
+
+    <view wx:for="{{data_out_array}}" wx:for-index="idx" wx:for-item="item" bindtap="btn_refsh_out" class="flex-wrp"
+          style="flex-direction:row;">
+        <view class=" flex-item flex-item-V-a">
+            {{idx + 1}}
+        </view>
+        <view class=" flex-item flex-item-V-b">
+            {{item.horses_number}}
+        </view>
+
+        <view class=" flex-item flex-item-V-e">
+            {{item.quantity_cold}}
+        </view>
+        <view class=" flex-item flex-item-V-d">
+            1
+        </view>
+        <view class=" flex-item flex-item-V">
+            {{item.price}}
+        </view>
+    </view>
+
+    <view class="black-line"></view>
+    <view class="price-build" bindtap="view_installation_cost">
+        标准安装费用：1500元 × {{air_machine_number}} 台＝ {{installation_cost}}
+    </view>
+    <view class="black-line"></view>
+    <view class="price-build" bindtap="view_total_cost">
+        工程总价：{{total_cost}}元
+    </view>
+    <view class="black-line"></view>
+
+    <!--<view class="flex-wrp" style="flex-direction:row;">-->
+        <!--<button class="flex-item-V-btn" type="primary" bindtap="btn_save">保存方案</button>-->
+    <!--</view>-->
+
+    <view class="flex-row" style="display: block;">
+        <view class="flex-view-item">建议您截屏保存，谢谢。</view>
+        <view class="flex-view-item">联系方式: 15088873015</view>
+        <view class="flex-view-item">联系人: 张先生</view>
+        <view class="flex-view-item">微信号: zs-xxznh</view>
+        <view class="flex-view-item">展厅地址:舟山临城桃湾路401号颐景御府南门</view>
+    </view>
+
+
+</view>
+
+
+<!--
+
+
+-->

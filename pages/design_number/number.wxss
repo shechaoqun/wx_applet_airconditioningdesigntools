@@ -1,0 +1,65 @@
+.scroll-view{
+    height: 600rpx;
+    width: auto;
+}
+
+.btn_1 {
+    margin-top:40px;
+    margin-bottom: 10px;
+    /*border: 1px;*/
+    /*border-style: solid;*/
+}
+
+.btn_2 {
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.btn_3 {
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.flex-wrp {
+    height: 100rpx;
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 15rpx;
+    /*border: 1rpx;*/
+}
+
+/*.flex-item {
+    width: 200 rpx;
+    height: 300 rpx;
+    font-size: 26 rpx;
+
+}*/
+
+.flex-item-V{
+    margin: 0 auto;
+    width: 180rpx;
+    height: 100rpx;
+    /*border-radius: 2px;*/
+    /*border: 1rpx solid #e5e5e5;*/
+    /*border-style: solid;*/
+
+}
+
+.icon{
+    display: inline-block;
+    border: 4px solid transparent;
+    border-top: 4px solid #9b9b9b;
+    margin-left: 5px;
+}
+
+.flex-item-V.active .icon{
+    border-bottom: 4px solid #61beff;
+    border-top:0;
+}
+.picker{
+    margin-top:3px;
+}
+
+.airNum{
+    margin-left:10px;
+}

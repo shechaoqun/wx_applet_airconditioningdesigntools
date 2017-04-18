@@ -1,0 +1,53 @@
+<!--index.wxml-->
+<view class="container">
+
+    <scroll-view class="scroll-view" scroll-y="true" bindscrolltoupper="upper" bindscrolltolower="lower"
+                 bindscroll="scroll">
+        <view wx:for="{{area_array}}" wx:for-index="idx" wx:for-item="item" bindtap="btn_add_view">
+            <view class="flex-wrp" style="flex-direction:row;" bindtap="getId" data-itemId="{{item.id}}">
+                <view class="airNum" >{{item.id}}</view>
+                <picker class="flex-item flex-item-V " bindchange="bindPickerChange_1_1"
+                        range="{{room_type}}">房型
+                    <view class="icon"></view>
+                    <view class="picker">
+                        {{index}} {{item.room_type}}
+                        <!--{{index_room_type}}-->
+                    </view>
+                </picker>
+
+                <picker class="flex-item flex-item-V " bindchange="bindPickerChange_1_2"
+                        range="{{machin_type}}">类型
+                    <view class="icon"></view>
+                    <view class="picker">
+                        {{index}} {{item.machin_type}}
+                    </view>
+                </picker>
+
+                <picker class="flex-item flex-item-V " bindchange="bindPickerChange_1_3"
+                        range="{{horses_number}}">匹数
+                    <view class="icon"></view>
+                    <view class="picker">
+                        {{index}} {{item.horses_number}}
+                    </view>
+                </picker>
+            </view>
+        </view>
+
+    </scroll-view>
+
+    <view class="btn_1">
+        <text>注：外机自动配置，无须选择</text>
+    </view>
+    <view class="btn_2">
+        <button type="primary" bindtap="btn_add">增加一个房面</button>
+    </view>
+    <view class="btn_3">
+        <button type="primary" bindtap="btn_build">生成配置单</button>
+    </view>
+</view>
+
+
+<!--
+
+
+-->
