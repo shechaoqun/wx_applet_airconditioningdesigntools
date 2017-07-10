@@ -16,7 +16,7 @@ Page({
         area_array: area_array,
         room_type: ['书|卧', '客|餐厅'],
         machin_type: ['风管机', '单面嵌'],
-        horses_number: ['小1匹', '正1匹', '1.5匹', '小2匹', '正2匹', '3匹'],
+        horses_number: ['小 1匹', '正1匹', '1.5匹', '小2匹', '正2匹', '3匹'],
         itemid:""
     },
 

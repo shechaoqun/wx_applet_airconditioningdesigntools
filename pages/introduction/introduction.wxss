@@ -1,0 +1,13 @@
+/* introduction.wxss */
+
+.scroll-view {
+  width: 90%;
+}
+
+.flex-wrp {
+  display: flex;
+}
+
+.flex-item-V {
+  margin-top: 10rpx;
+}

@@ -1,0 +1,16 @@
+/* real_appreciate.wxss */
+.scroll-view{
+  width: 90%;
+}
+
+.flex-item-text{
+  margin-bottom:10px;
+}
+
+.img-view{
+  margin-bottom: 28px;
+  width: 100%;
+}
+
+
+

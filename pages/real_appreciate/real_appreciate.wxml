@@ -1,0 +1,30 @@
+<view class="container">
+  <scroll-view class="scroll-view" scroll-y="true" bindscrolltoupper="upper" bindscrolltolower="lower"                 bindscroll="scroll">
+    <view class="flex-wrp" style="flex-direction:column;">
+    <text class="flex-item flex-item-text">1:舟山东港 海景颐园 慧兰园 11幢 ！</text>
+    <image class="flex-item-img img-view" src="{{real_appreciateImgUrl01}}">
+    </image>
+    <text class="flex-item flex-item-text">2:舟山 东港 和润花园润泽苑  7幢 ！</text>
+    <image class="flex-item img-view" src="{{real_appreciateImgUrl03}}">
+    </image>
+    <text class="flex-item flex-item-text">3:舟山 新城 金色华庭 3幢 ！</text>
+    <image class="img-view" src="{{real_appreciateImgUrl05}}">
+    </image>
+    <text class="flex-item-text">4:舟山 定海蓉浦公寓  5幢 ！</text>
+    <image class="img-view" src="{{real_appreciateImgUrl07}}">
+    </image>
+    <text class="flex-item-text">5:舟山 新城御江湾21幢 ！</text>
+    <image class="img-view" src="{{real_appreciateImgUrl09}}">
+    </image>
+    <text class="flex-item-text">6:舟山 定海西城锦园  3幢 ！</text>
+    <image class="img-view" src="{{real_appreciateImgUrl011}}">
+    </image>
+    <text class="flex-item-text">7:舟山  新城 大宗商品交易中心 A,B写字楼 体量2400万 ！</text>
+    <image class="img-view" src="{{real_appreciateImgUrl013}}">
+    </image>
+    <text class="flex-item-text">8:舟山 绿城朱家尖度假村北区 体量800套 1600万 ！</text>
+    <image class="img-view" src="{{real_appreciateImgUrl015}}">
+    </image>
+    </view>
+  </scroll-view>
+</view>

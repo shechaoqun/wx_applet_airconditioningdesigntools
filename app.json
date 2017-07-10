@@ -1,15 +1,19 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/logs/logs",
     "pages/design_area/area",
     "pages/design_number/number",
-    "pages/configuration_center/center"
+    "pages/configuration_center/center",
+    "pages/introduction/introduction",
+    "pages/design_mix/design_mix",
+    "pages/real_appreciate/real_appreciate",
+    "pages/design_mix_center/design_mix_center"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   }
 }
