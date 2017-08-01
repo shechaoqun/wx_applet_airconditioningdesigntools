@@ -2,6 +2,7 @@
 <view class="container">
 
     <view class="flex-wrp" style="flex-direction:row;">
+    <view class="flex-item airNum"></view>
         <text class="flex-item flex-item-V-a">
             房型
         </text>
@@ -23,7 +24,7 @@
     </view>
     <view wx:for="{{data_all_array}}" wx:for-index="idx" wx:for-item="item" bindtap="btn_refsh_view" class="flex-wrp"
           style="flex-direction:row;">
-        <view class="airNum">{{index}} {{idx + 1}}</view>
+        <view class="flex-item airNum">{{index}} {{idx + 1}}</view>
         <view class=" flex-item flex-item-V-a">
             {{index}} {{item.room_type}}
         </view>
@@ -57,6 +58,9 @@
         <text class=" flex-item flex-item-V-e">
             冷量
         </text>
+         <text class=" flex-item flex-item-V-d">
+            拖带率
+        </text>
         <text class=" flex-item flex-item-V-d">
             数量
         </text>
@@ -76,6 +80,9 @@
 
         <view class=" flex-item flex-item-V-e">
             {{item.quantity_cold}}
+        </view>
+        <view class=" flex-item flex-item-V-d">
+            {{item.towing_rate}}
         </view>
         <view class=" flex-item flex-item-V-d">
             1

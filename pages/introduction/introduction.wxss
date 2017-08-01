@@ -10,4 +10,10 @@
 
 .flex-item-V {
   margin-top: 10rpx;
+  font-size: 28rpx;
+  margin-bottom: 10rpx;
+}
+
+.img-005{
+  height: 600rpx;
 }

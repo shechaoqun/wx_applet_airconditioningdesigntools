@@ -13,30 +13,29 @@
     </image>
   </view>
 
-
-  <view class="flex-wrp" style="flex-direction:row;">
-    <view class="flex-item " class="">
-      <button type="default" bindtap="btn_according_to_the_enjoy">实景案列欣赏</button>
-    </view>
-    <view class="flex-item ">
-      <button type="default" bindtap="btn_according_to_the_air_introduction">单面嵌VS风管机</button>
-    </view>
-  </view>
-
-
-
   <view class="flex-wrp" style="flex-direction:row;">
     <view class="flex-item ">
-      <button type="default" bindtap="btn_according_to_area_design">根据面积设计</button>
+      <button class="btn_1" bindtap="btn_according_to_area_design">根据面积设计(多联)</button>
     </view>
     <view class="flex-item ">
-      <button type="default" bindtap="btn_according_to_the_number_of_design">根据匹数设计</button>
+      <button class="btn_2" bindtap="btn_according_to_the_number_of_design">根据匹数设计(多联)</button>
     </view>
   </view>
 
   <view class="btn_4">
-    <button type="default" bindtap="btn_according_to_the_new_design">一拖一（卡机）设计</button>
+    <button class="btn_4_4" bindtap="btn_according_to_the_new_design">一拖一(卡机)设计</button>
   </view>
+
+  <view class="flex-wrp" style="flex-direction:row;">
+    <view class="flex-item">
+      <button class="btn_5" bindtap="btn_according_to_the_enjoy">实景案列欣赏</button>
+    </view>
+    <view class="flex-item">
+      <button class="btn_6" bindtap="btn_according_to_the_air_introduction">单面嵌VS风管机</button>
+    </view>
+  </view>
+
+
   <!--<view class="btn_3">
 <button type="default" bindtap="btn_my_configuration_center">我的配置中心</button>
 </view>-->

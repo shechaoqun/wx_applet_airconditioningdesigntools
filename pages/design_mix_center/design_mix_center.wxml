@@ -6,36 +6,36 @@
         <text class="flex-item flex-item-V-a">
             房型
         </text>
-        <text class=" flex-item flex-item-V-b">
+        <text class="flex-item flex-item-V-b">
             机型
         </text>
-        <text class=" flex-item flex-item-V-c">
+        <text class="flex-item flex-item-V-c">
             面积/匹数
         </text>
-        <text class=" flex-item flex-item-V">
+        <text class="flex-item flex-item-V">
             数量
         </text>
-        <text class=" flex-item flex-item-V">
+        <text class="flex-item flex-item-V">
             价格
         </text>
     </view>
     <view wx:for="{{data_all_array}}" wx:for-index="idx" wx:for-item="item" bindtap="btn_refsh_view" class="flex-wrp"
           style="flex-direction:row;">
-        <view class="airNum">{{index}} {{idx + 1}}</view>
-        <view class=" flex-item flex-item-V-a">
+        <view class="flex-item airNum">{{index}} {{idx + 1}}</view>
+        <view class="flex-item flex-item-V-a">
             {{index}} {{item.room_type}}
         </view>
-        <view class=" flex-item flex-item-V-b">
+        <view class="flex-item flex-item-V-b">
             {{index}} {{item.machin_type}}
         </view>
 
-        <view class=" flex-item flex-item-V-c">
+        <view class="flex-item flex-item-V-c">
             {{index}} {{item.horses_number}}
         </view>
-        <view class=" flex-item flex-item-V">
+        <view class="flex-item flex-item-V">
             {{index}} {{item.default_num}}
         </view>
-        <view class=" flex-item flex-item-V">
+        <view class="flex-item flex-item-V">
             {{index}} {{item.price}}
         </view>
     </view>

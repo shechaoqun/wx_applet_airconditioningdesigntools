@@ -18,19 +18,18 @@
 }
 
 .flex-wrp {
-    height: 150rpx;
     display: flex;
     font-size: 16px;
     margin-bottom: 10rpx;
     /*border: 1rpx;*/
 }
 
-/*.flex-item {
-    width: 200 rpx;
-    height: 300 rpx;
-    font-size: 26 rpx;
-
-}*/
+.flex-item {
+  display: flex;
+   align-items:center;
+  justify-content:center;
+  height: 90rpx;
+}
 
 .flex-item-V{
     margin: 0 auto;
@@ -44,24 +43,27 @@
 .flex-item-V-e {
     margin: 0 auto;
     width: 110rpx;
-    height: 100rpx;
+
 }
 .flex-item-V-a{
     margin: 0 auto;
     width: 130rpx;
-    height: 100rpx;
+
 }
 .flex-item-V-b{
     margin: 0 auto;
     width: 130rpx;
+
 }
 .flex-item-V-c{
     margin: 0 auto;
     width: 180rpx;
+
 }
 .flex-item-V-d{
     margin: 0 auto;
     width: 100rpx;
+
 }
 .flex-item-V-btn{
     margin: 0 auto;

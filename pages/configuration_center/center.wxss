@@ -24,15 +24,13 @@
     /*border: 1rpx;*/
 }
 
-/*.flex-item {
-    width: 200 rpx;
-    height: 300 rpx;
-    font-size: 26 rpx;
-
-}*/
+.flex-item {
+  display: flex;
+   align-items:center;
+  justify-content:center;
+}
 
 .flex-item-V{
-    margin: 0 auto;
     width: 80rpx;
     height: 100rpx;
     /*border-radius: 2px;*/
@@ -41,29 +39,31 @@
 
 }
 .flex-item-V-e {
-    margin: 0 auto;
-    width: 110rpx;
-    height: 100rpx;
-}
-.flex-item-V-a{
-    margin: 0 auto;
     width: 130rpx;
     height: 100rpx;
 }
+
+.flex-item-V-a{
+    margin-left: 5px;
+    width: 130rpx;
+    height: 100rpx;
+}
+
+
 .flex-item-V-b{
-    margin: 0 auto;
     width: 130rpx;
 }
 .flex-item-V-c{
-    margin: 0 auto;
+   
     width: 180rpx;
 }
 .flex-item-V-d{
-    margin: 0 auto;
+    margin-right: 5px;
     width: 100rpx;
 }
+
 .flex-item-V-btn{
-    margin: 0 auto;
+  
     width: 200px;
 }
 
@@ -83,7 +83,7 @@
 }
 
 .airNum{
-    margin: 0 auto;
+    width:2px;
     padding-right: 2px;
 }
 

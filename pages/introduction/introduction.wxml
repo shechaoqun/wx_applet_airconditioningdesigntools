@@ -5,28 +5,28 @@
 
   <scroll-view class="scroll-view" scroll-y="true" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll">
 
-    <text>1.小欣：老板你家风口装的真有型？！！</text>
+    <view class="flex-item flex-item-V">1.小欣：老板你家风口装的真有型？！！</view>
     <image class="img-view" src="{{introductionImgUrl01}}"></image>
     <image class="img-view" src="{{introductionImgUrl02}}"></image>
 
     <view class="flex-wrp" style="flex-direction:column;">
-      <text class="flex-item flex-item-V demo-text-3">老板：囧！我家大牌空调制热效果木有啊，空调老师傅说热气都被灯槽挡回去了，把灯槽拆 了或者风口做凸出来就行，果然就行！效果杠杠滴！</text>
-      <text class="flex-item flex-item-V demo-text-3">2.小欣：老板你家用单面嵌就没那么多毛病了！认识下单面嵌和风管机都长什么样子：</text>
+      <view class="flex-item flex-item-V demo-text-3">老板：囧！我家大牌空调制热效果木有啊，空调老师傅说热气都被灯槽挡回去了，把灯槽拆 了或者风口做凸出来就行，果然就行！效果杠杠滴！</view>
+      <view class="flex-item flex-item-V demo-text-3">2.小欣：老板你家用单面嵌就没那么多毛病了！认识下单面嵌和风管机都长什么样子：</view>
     </view>
     <image class="img-view" src="{{introductionImgUrl03}}"></image>
     <image class="img-view" src="{{introductionImgUrl04}}"></image>
 
     <view class="flex-wrp" style="flex-direction:column;">
-      <text class="flex-item flex-item-V">老板：嘿，单面嵌还挺干净漂亮的，很有艺术感的嘛！那怎么解决我家的毛病啊?</text>
-      <text class="flex-item flex-item-V">3.小欣：喏，拿去，不谢！</text>
+      <view class="flex-item flex-item-V">老板：嘿，单面嵌还挺干净漂亮的，很有艺术感的嘛！那怎么解决我家的毛病啊?</view>
+      <view class="flex-item flex-item-V">3.小欣：喏，拿去，不谢！</view>
     </view>
 
-    <image class="img-view" src="{{introductionImgUrl05}}"></image>
+    <image class="img-view img-005" src="{{introductionImgUrl05}}"></image>
 
     <view class="flex-wrp" style="flex-direction:column;">
-      <text class="flex-item flex-item-V">老板：看懂了，这机子真心把风管机的弊端都给解决了么！牛逼！好东西，果然是新一代空调，就只有三星有吗？</text>
-      <text class="flex-item flex-item-V">小欣：各大品牌都有单面嵌的哦，不过无论产品技术还是价格都是三星的美丽哦，您可以打听打听！</text>
-      <text class="flex-item flex-item-V">4、小欣：给您上点其它老板家里的实装图吧。</text>
+      <view class="flex-item flex-item-V">老板：看懂了，这机子真心把风管机的弊端都给解决了么！牛逼！好东西，果然是新一代空调，就只有三星有吗？</view>
+      <view class="flex-item flex-item-V">小欣：各大品牌都有单面嵌的哦，不过无论产品技术还是价格都是三星的美丽哦，您可以打听打听！</view>
+      <view class="flex-item flex-item-V">4、小欣：给您上点其它老板家里的实装图吧。</view>
     </view>
 
 

@@ -11,11 +11,11 @@ var air_c_area_dict = [
     machin_type_id: "0",
     horses_number_id: "0",
     //冷量
-    quantity_cold: "2.2KW",
+    quantity_cold: "1.8KW",
     //默认需求数量
     default_num: "1",
     //价格
-    price: "3250"
+    price: "3190"
   }, {
     room_type: "书|卧",
     machin_type: "风管机",
@@ -23,9 +23,9 @@ var air_c_area_dict = [
     room_type_id: "0",
     machin_type_id: "0",
     horses_number_id: "1",
-    quantity_cold: "2.8KW",
+    quantity_cold: "2.2KW",
     default_num: "1",
-    price: "3360"
+    price: "3250"
   }, {
     room_type: "书|卧",
     machin_type: "风管机",
@@ -51,7 +51,7 @@ var air_c_area_dict = [
     //默认需求数量
     default_num: "1",
     //价格
-    price: "3510"
+    price: "3560"
   }, {
     room_type: "书|卧",
     machin_type: "风管机",
@@ -60,11 +60,11 @@ var air_c_area_dict = [
     machin_type_id: "0",
     horses_number_id: "4",
     //冷量
-    quantity_cold: "5.6KW",
+    quantity_cold: "5.0KW",
     //默认需求数量
     default_num: "1",
     //价格
-    price: "3780"
+    price: "3720"
   }, {
     room_type: "书|卧",
     machin_type: "风管机",
@@ -73,11 +73,11 @@ var air_c_area_dict = [
     machin_type_id: "0",
     horses_number_id: "5",
     //冷量
-    quantity_cold: "7.1KW",
+    quantity_cold: "6.3KW",
     //默认需求数量
     default_num: "1",
     //价格
-    price: "4210"
+    price: "3980"
   }, {
     room_type: "书|卧",
     machin_type: "风管机",
@@ -86,11 +86,11 @@ var air_c_area_dict = [
     machin_type_id: "0",
     horses_number_id: "6",
     //冷量
-    quantity_cold: "9.0KW",
+    quantity_cold: "7.1KW",
     //默认需求数量
     default_num: "1",
     //价格
-    price: "4650"
+    price: "4210"
   }, {
     room_type: "书|卧",
     machin_type: "单面嵌",
@@ -98,6 +98,19 @@ var air_c_area_dict = [
     room_type_id: "0",
     machin_type_id: "1",
     horses_number_id: "0",
+    //冷量
+    quantity_cold: "1.8KW",
+    //默认需求数量
+    default_num: "1",
+    //价格
+    price: "4750"
+  }, {
+    room_type: "书|卧",
+    machin_type: "单面嵌",
+    horses_number: "10-15㎡",
+    room_type_id: "0",
+    machin_type_id: "1",
+    horses_number_id: "1",
     //冷量
     quantity_cold: "2.2KW",
     //默认需求数量
@@ -107,19 +120,6 @@ var air_c_area_dict = [
   }, {
     room_type: "书|卧",
     machin_type: "单面嵌",
-    horses_number: "10-15㎡",
-    room_type_id: "0",
-    machin_type_id: "1",
-    horses_number_id: "1",
-    //冷量
-    quantity_cold: "2.8KW",
-    //默认需求数量
-    default_num: "1",
-    //价格
-    price: "5070"
-  }, {
-    room_type: "书|卧",
-    machin_type: "单面嵌",
     horses_number: "15-20㎡",
     room_type_id: "0",
     machin_type_id: "1",
@@ -196,9 +196,9 @@ var air_c_area_dict = [
     room_type_id: "1",
     machin_type_id: "0",
     horses_number_id: "1",
-    quantity_cold: "3.6W",
+    quantity_cold: "2.8KW",
     default_num: "1",
-    price: "3460"
+    price: "3360"
   }, {
     room_type: "客|餐厅",
     machin_type: "风管机",
@@ -207,11 +207,11 @@ var air_c_area_dict = [
     machin_type_id: "0",
     horses_number_id: "2",
     //冷量
-    quantity_cold: "4.5KW",
+    quantity_cold: "4.0KW",
     //默认需求数量
     default_num: "1",
     //价格
-    price: "3630"
+    price: "3560"
   }, {
     room_type: "客|餐厅",
     machin_type: "风管机",
@@ -219,6 +219,32 @@ var air_c_area_dict = [
     room_type_id: "1",
     machin_type_id: "0",
     horses_number_id: "3",
+    //冷量
+    quantity_cold: "5.0KW",
+    //默认需求数量
+    default_num: "1",
+    //价格
+    price: "3720"
+  }, {
+    room_type: "客|餐厅",
+    machin_type: "风管机",
+    horses_number: "25-30㎡",
+    room_type_id: "1",
+    machin_type_id: "0",
+    horses_number_id: "4",
+    //冷量
+    quantity_cold: "6.3KW",
+    //默认需求数量
+    default_num: "1",
+    //价格
+    price: "3980"
+  }, {
+    room_type: "客|餐厅",
+    machin_type: "风管机",
+    horses_number: "30-35㎡",
+    room_type_id: "1",
+    machin_type_id: "0",
+    horses_number_id: "5",
     //冷量
     quantity_cold: "7.1KW",
     //默认需求数量
@@ -228,42 +254,16 @@ var air_c_area_dict = [
   }, {
     room_type: "客|餐厅",
     machin_type: "风管机",
-    horses_number: "25-30㎡",
-    room_type_id: "1",
-    machin_type_id: "0",
-    horses_number_id: "4",
-    //冷量
-    quantity_cold: "9KW",
-    //默认需求数量
-    default_num: "1",
-    //价格
-    price: "4650"
-  }, {
-    room_type: "客|餐厅",
-    machin_type: "风管机",
-    horses_number: "30-35㎡",
-    room_type_id: "1",
-    machin_type_id: "0",
-    horses_number_id: "5",
-    //冷量
-    quantity_cold: "11.2KW",
-    //默认需求数量
-    default_num: "1",
-    //价格
-    price: "4900"
-  }, {
-    room_type: "客|餐厅",
-    machin_type: "风管机",
     horses_number: "35-40㎡",
     room_type_id: "1",
     machin_type_id: "0",
     horses_number_id: "6",
     //冷量
-    quantity_cold: "5.6KW",
+    quantity_cold: "9.0KW",
     //默认需求数量
-    default_num: "2",
+    default_num: "1",
     //价格
-    price: "3780"
+    price: "4650"
   }, {
     room_type: "客|餐厅",
     machin_type: "单面嵌",
@@ -307,9 +307,9 @@ var air_c_area_dict = [
     room_type_id: "1",
     machin_type_id: "1",
     horses_number_id: "3",
-    quantity_cold: "5.6KW",
+    quantity_cold: "4.5KW",
     default_num: "1",
-    price: "5930"
+    price: "5450"
   }, {
     room_type: "客|餐厅",
     machin_type: "单面嵌",
@@ -317,6 +317,19 @@ var air_c_area_dict = [
     room_type_id: "1",
     machin_type_id: "1",
     horses_number_id: "4",
+    //冷量
+    quantity_cold: "5.6KW",
+    //默认需求数量
+    default_num: "1",
+    //价格
+    price: "5930"
+  }, {
+    room_type: "客|餐厅",
+    machin_type: "单面嵌",
+    horses_number: "30-35㎡",
+    room_type_id: "1",
+    machin_type_id: "1",
+    horses_number_id: "5",
     //冷量
     quantity_cold: "7.1KW",
     //默认需求数量
@@ -326,29 +339,16 @@ var air_c_area_dict = [
   }, {
     room_type: "客|餐厅",
     machin_type: "单面嵌",
-    horses_number: "30-35㎡",
+    horses_number: "35-40㎡",
     room_type_id: "1",
     machin_type_id: "1",
-    horses_number_id: "5",
+    horses_number_id: "6",
     //冷量
     quantity_cold: "4.5KW",
     //默认需求数量
     default_num: "2",
     //价格
     price: "5450"
-  }, {
-    room_type: "客|餐厅",
-    machin_type: "单面嵌",
-    horses_number: "35-40㎡",
-    room_type_id: "1",
-    machin_type_id: "1",
-    horses_number_id: "6",
-    //冷量
-    quantity_cold: "5.6KW",
-    //默认需求数量
-    default_num: "2",
-    //价格
-    price: "5930"
   }]
 //匹数
 var air_c_number_dict = [
@@ -400,7 +400,7 @@ var air_c_number_dict = [
     //默认需求数量
     default_num: "1",
     //价格
-    price: "3510"
+    price: "3560"
   }, {
     room_type: "书|卧",
     machin_type: "风管机",
@@ -547,7 +547,7 @@ var air_c_number_dict = [
     //默认需求数量
     default_num: "1",
     //价格
-    price: "3510"
+    price: "3560"
   }, {
     room_type: "客|餐厅",
     machin_type: "风管机",
@@ -701,7 +701,7 @@ var air_c_mix_dict = [
     room_type: "书|卧",
     machin_type: "风管机",
     horses_number: "变频1.5匹(15-20㎡)",
-    price: "5889"
+    price: "5470"
   },
   {
     room_type_id: "0",
@@ -710,7 +710,7 @@ var air_c_mix_dict = [
     room_type: "书|卧",
     machin_type: "风管机",
     horses_number: "变频2匹(21-30㎡)",
-    price: "7544"
+    price: "6360"
   },
   {
     room_type_id: "0",
@@ -719,7 +719,7 @@ var air_c_mix_dict = [
     room_type: "书|卧",
     machin_type: "风管机",
     horses_number: "变频3匹(31-40㎡)",
-    price: "11367"
+    price: "10360"
   },
   {
     room_type_id: "0",
@@ -728,7 +728,7 @@ var air_c_mix_dict = [
     room_type: "书|卧",
     machin_type: "风管机",
     horses_number: "变频5匹(50-63㎡)",
-    price: "14678"
+    price: "13320"
   },
   {
     room_type_id: "0",
@@ -737,7 +737,7 @@ var air_c_mix_dict = [
     room_type: "书|卧",
     machin_type: "风管机",
     horses_number: "定频1匹（8-13㎡）",
-    price: "4111"
+    price: "3880"
   },
   {
     room_type_id: "0",
@@ -746,7 +746,7 @@ var air_c_mix_dict = [
     room_type: "书|卧",
     machin_type: "风管机",
     horses_number: "定频1.5匹（14-20㎡）",
-    price: "4267"
+    price: "4030"
   },
   {
     room_type_id: "0",
@@ -755,7 +755,7 @@ var air_c_mix_dict = [
     room_type: "书|卧",
     machin_type: "风管机",
     horses_number: "定频2匹（21-30㎡）",
-    price: "5844"
+    price: "5430"
   },
   {
     room_type_id: "0",
@@ -764,7 +764,7 @@ var air_c_mix_dict = [
     room_type: "书|卧",
     machin_type: "风管机",
     horses_number: "定频3匹（31-40㎡）",
-    price: "8678"
+    price: "7960"
   },
   {
     room_type_id: "0",
@@ -773,7 +773,7 @@ var air_c_mix_dict = [
     room_type: "书|卧",
     machin_type: "风管机",
     horses_number: "定频5匹（50-63㎡）",
-    price: "10811"
+    price: "9860"
   },
   //客餐厅 风管机 
   {
@@ -783,7 +783,7 @@ var air_c_mix_dict = [
     room_type: "客餐厅",
     machin_type: "风管机",
     horses_number: "变频1.5匹(15-20㎡)",
-    price: "5889"
+    price: "5470"
   },
   {
     room_type_id: "1",
@@ -792,7 +792,7 @@ var air_c_mix_dict = [
     room_type: "客餐厅",
     machin_type: "风管机",
     horses_number: "变频2匹(21-30㎡)",
-    price: "7544"
+    price: "6360"
   },
   {
     room_type_id: "1",
@@ -801,7 +801,7 @@ var air_c_mix_dict = [
     room_type: "客餐厅",
     machin_type: "风管机",
     horses_number: "变频3匹(31-40㎡)",
-    price: "11367"
+    price: "10360"
   },
   {
     room_type_id: "1",
@@ -810,7 +810,7 @@ var air_c_mix_dict = [
     room_type: "客餐厅",
     machin_type: "风管机",
     horses_number: "变频5匹(50-63㎡)",
-    price: "14678"
+    price: "13320"
   },
   {
     room_type_id: "1",
@@ -819,7 +819,7 @@ var air_c_mix_dict = [
     room_type: "客餐厅",
     machin_type: "风管机",
     horses_number: "定频1匹（8-12㎡）",
-    price: "4111"
+    price: "3880"
   },
   {
     room_type_id: "1",
@@ -828,7 +828,7 @@ var air_c_mix_dict = [
     room_type: "客餐厅",
     machin_type: "风管机",
     horses_number: "定频1.5匹（13-16㎡）",
-    price: "4267"
+    price: "4030"
   },
   {
     room_type_id: "1",
@@ -837,7 +837,7 @@ var air_c_mix_dict = [
     room_type: "客餐厅",
     machin_type: "风管机",
     horses_number: "定频2匹（17-25㎡）",
-    price: "5844"
+    price: "5430"
   },
   {
     room_type_id: "1",
@@ -846,7 +846,7 @@ var air_c_mix_dict = [
     room_type: "客餐厅",
     machin_type: "风管机",
     horses_number: "定频3匹（26-33㎡）",
-    price: "8678"
+    price: "7960"
   },
   {
     room_type_id: "1",
@@ -855,7 +855,7 @@ var air_c_mix_dict = [
     room_type: "客餐厅",
     machin_type: "风管机",
     horses_number: "定频5匹（40-58㎡）",
-    price: "10811"
+    price: "9860"
   },
   // 书|卧 单面嵌（进口）
   {
@@ -865,7 +865,7 @@ var air_c_mix_dict = [
     room_type: "书|卧",
     machin_type: "单面嵌（进口）",
     horses_number: "变频1匹(10-15㎡)",
-    price: "6622"
+    price: "7150"
   },
   {
     room_type_id: "0",
@@ -874,7 +874,7 @@ var air_c_mix_dict = [
     room_type: "书|卧",
     machin_type: "单面嵌（进口）",
     horses_number: "变频1.5匹(15 - 20㎡)",
-    price: "7100"
+    price: "7540"
   },
   {
     room_type_id: "0",
@@ -883,7 +883,7 @@ var air_c_mix_dict = [
     room_type: "书|卧",
     machin_type: "单面嵌（进口）",
     horses_number: "变频2匹(21-30㎡)",
-    price: "8678"
+    price: "8880"
   },
   {
     room_type_id: "0",
@@ -892,7 +892,7 @@ var air_c_mix_dict = [
     room_type: "书|卧",
     machin_type: "单面嵌（进口）",
     horses_number: "变频3匹(31-40㎡)",
-    price: "11833"
+    price: "11550"
   },
   //客餐厅 单面嵌（进口）
   {
@@ -902,7 +902,7 @@ var air_c_mix_dict = [
     room_type: "客餐厅",
     machin_type: "单面嵌（进口）",
     horses_number: "变频1匹(10-13㎡)",
-    price: "6622"
+    price: "7150"
   },
   {
     room_type_id: "1",
@@ -911,7 +911,7 @@ var air_c_mix_dict = [
     room_type: "客餐厅",
     machin_type: "单面嵌（进口）",
     horses_number: "变频1.5匹(14-18㎡)",
-    price: "7100"
+    price: "7540"
   },
   {
     room_type_id: "1",
@@ -920,7 +920,7 @@ var air_c_mix_dict = [
     room_type: "客餐厅",
     machin_type: "单面嵌（进口）",
     horses_number: "变频2匹(19-26㎡)",
-    price: "8678"
+    price: "8880"
   },
   {
     room_type_id: "1",
@@ -929,7 +929,7 @@ var air_c_mix_dict = [
     room_type: "客餐厅",
     machin_type: "单面嵌（进口）",
     horses_number: "变频3匹(27-37㎡)",
-    price: "11833"
+    price: "11550"
   },
   // 360度圆形天花机（进口）
   {
@@ -939,7 +939,7 @@ var air_c_mix_dict = [
     room_type: "书|卧",
     machin_type: "360度圆形天花机（进口）",
     horses_number: "变频3匹（25-35㎡）",
-    price: "13133"
+    price: "12500"
   },
   {
     room_type_id: "0",
@@ -948,7 +948,7 @@ var air_c_mix_dict = [
     room_type: "书|卧",
     machin_type: "360度圆形天花机（进口）",
     horses_number: "变频5匹（45 - 58㎡）",
-    price: "17233"
+    price: "16000"
   },
   {
     room_type_id: "1",
@@ -957,7 +957,7 @@ var air_c_mix_dict = [
     room_type: "客餐厅",
     machin_type: "360度圆形天花机（进口）",
     horses_number: "变频3匹（25-35㎡）",
-    price: "13133"
+    price: "12500"
   },
   {
     room_type_id: "1",
@@ -966,7 +966,7 @@ var air_c_mix_dict = [
     room_type: "客餐厅",
     machin_type: "360度圆形天花机（进口）",
     horses_number: "变频5匹（45 - 58㎡）",
-    price: "17233"
+    price: "16000"
   }
 ]
 
