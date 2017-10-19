@@ -1,29 +1,4 @@
 // 记录一些常量
-/*var imgUrls = {
-  baseUrl: "https://code.aliyun.com/lovayone/imageRepo/raw/master/zhangbin_wx_applet/",
-
-  indexImgUrl: baseUrl + "index01.png",
-  introductionImgUrl01: baseUrl + "introduction/image001.png",
-  introductionImgUrl02: baseUrl + "introduction/image002.png",
-  introductionImgUrl03: baseUrl + "introduction/image003.png",
-  introductionImgUrl04: baseUrl + "introduction/image004.png",
-  introductionImgUrl05: baseUrl + "introduction/image005.png",
-  introductionImgUrl06: baseUrl + "introduction/image006.png",
-  introductionImgUrl07: baseUrl + "introduction/image007.png",
-  introductionImgUrl08: baseUrl + "introduction/image008.png",
-  introductionImgUrl09: baseUrl + "introduction/image009.png",
-
-  real_appreciateImgUrl01: baseUrl + "real_appreciate/image001.jpg",
-  real_appreciateImgUrl03: baseUrl + "real_appreciate/image003.jpg",
-  real_appreciateImgUrl05: baseUrl + "real_appreciate/image005.jpg",
-  real_appreciateImgUrl07: baseUrl + "real_appreciate/image007.jpg",
-  real_appreciateImgUrl09: baseUrl + "real_appreciate/image009.jpg",
-  real_appreciateImgUrl011: baseUrl + "real_appreciate/image011.jpg",
-  real_appreciateImgUrl013: baseUrl + "real_appreciate/image013.jpg",
-  real_appreciateImgUrl015: baseUrl + "real_appreciate/image015.jpg",
-
-}*/
-
 var baseUrl = "https://code.aliyun.com/lovayone/imageRepo/raw/master/zhangbin_wx_applet/";
 
 // var indexImgUrl = baseUrl + "index01.png";
@@ -71,18 +46,3 @@ module.exports = {
   real_appreciateImgUrl013: real_appreciateImgUrl013,
   real_appreciateImgUrl015: real_appreciateImgUrl015
 }
-
-/*
-https://code.aliyun.com/lovayone/imageRepo/raw/master/zhangbin_wx_applet/index01.png
-
-https://code.aliyun.com/lovayone/imageRepo/raw/master/zhangbin_wx_applet/introduction/image001.png
-
-https://code.aliyun.com/lovayone/imageRepo/raw/master/zhangbin_wx_applet/introduction/image009.png
-
-
-https://code.aliyun.com/lovayone/imageRepo/raw/master/zhangbin_wx_applet/real_appreciate/image001.jpg
-
-
-
-
-*/
