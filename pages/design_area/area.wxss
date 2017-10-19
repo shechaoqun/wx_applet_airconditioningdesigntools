@@ -63,3 +63,7 @@
 .airNum{
     margin-left:10px;
 }
+
+.flex-wrp-row {
+   height: 180rpx;
+}
